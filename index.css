@@ -1,0 +1,30 @@
+#login {
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+  #logo {
+    height: 10px;
+    margin-right: 10px;
+  }
+
+  
+  #header {
+    background-color: #007bff; /* blue background */
+    color: #ffffff; /* white text */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex; /* add this to make the logo and headline inline */
+    align-items: center; /* vertically center the logo and headline */
+  }
+  #header img {
+    height: 30px; /* adjust the logo height to match the headline */
+    width: 30px; /* set the logo width to match the height */
+    margin-right: 10px; /* add some space between the logo and headline */
+  }
+  
+  #header h1 {
+    font-size: 30px; /* adjust the headline font size to match the logo */
+    margin: 0;
+  }
