@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welmeet.com</title>
+  <link rel="icon" href="C:\Users\Admin\Desktop\welmeet\W.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #e8e8e8;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Changed from flex-end to flex-start */
+    }
+    #header {
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .header-para {
+      padding: 20px;
+      background-color: #9dbadf;
+      color: #0a0909;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: justify;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 2vh;
+    }
+    .startchat-button {
+      background-color: #007bff; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-top: 4vh;
+    }
+    .startchat-button:hover {
+      transform: scale(1.1);
+      background-color: #3e8e41; /* Darker green on hover */
+      box-shadow: 0 0 10px rgba(3, 3, 3, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header id="header">
+      <h1>Welmeet</h1>
+      <h1><img src="C:\Users\Admin\Desktop\welmeet\W.png" height="100"  width="100"/></h1>
+    </header>
+    <p class="header-para">
+      "Connect with new people from around the world in seconds.Whether you're looking to make new friends, Share ideas, or simply have a chat, Welmeet lets you do it all with just a click. Enjoy instant, anonymous conversations anytime, anywhere ..."
+    </p>
+    <center>
+      <button class="startchat-button">Start Chat</button>
+    </center>
+    
+    <footer class="footer">
+
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=61564875506749&mibextid=ZbWKwL">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://chat.whatsapp.com/JxN6MsS2p7V7zIJi4SNBjH">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+  
+      </ul>
+      <p>&copy;2024 Welmeet | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </main>
+  </body>
+</html>
